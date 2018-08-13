@@ -1,0 +1,24 @@
+.circle {
+  display: table;
+  width: 25px;
+  height: 25px;
+  border: 1px solid orange;
+  border-radius: 50%;
+  padding: 2px;
+  margin: 2px;
+  span.pink {
+    background: pink;
+    display: table-cell;
+    border-radius: 50%;
+  }
+  span.green {
+    background: green;
+    display: table-cell;
+    border-radius: 50%;
+  }
+  span.gray {
+    background: gray;
+    display: table-cell;
+    border-radius: 50%;
+  }
+}
